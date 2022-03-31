@@ -5,7 +5,7 @@
 * 4 [git push](#git-push)
   * 4.1 [git push origin master](#git-push-origin-master)
   * 4.2 [git push origin ：refs/for/master](#git-push-origin:refs/for/master)
-  * 4.3 [git push origin master](#git-push-origin)
+  * 4.3 [git push origin](#git-push-origin)
   
 ## 简介
     Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
