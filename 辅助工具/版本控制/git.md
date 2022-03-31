@@ -5,7 +5,7 @@
 * 4 [git push](#git-push)
   * 4.1 [git push origin master](#git-push-origin-master)
   * 4.2 [git push origin ：refs/for/master](#git-push-origin:refs/for/master)
-  * 4.3 [git push origin master](#git-push-origin-master)
+  * 4.3 [git push origin master](#git-push-origin)
   
 ## 简介
     Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
@@ -28,7 +28,7 @@
 
 	如果远程分支被省略，如上则表示将本地分支推送到与之存在追踪关系的远程分支（通常两者同名），如果该远程分支不存在，则会被新建
         
-###2. git push origin ：refs/for/master 
+###2. git push origin:refs/for/master 
 
 	如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支，等同于 git push origin --delete master
 
