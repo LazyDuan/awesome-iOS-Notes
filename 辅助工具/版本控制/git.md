@@ -1,6 +1,21 @@
+<h1><center> 目录 </center></h1>
+* 1 [简介](#简介)
+* 2 [git init](#git init)
+* 3 [git clone](#git clone)
+* 4 [git push](#git push)
+  * 4.1 [git push origin master](#git push origin master)
+  * 4.2 [git push origin ：refs/for/master](#git push origin ：refs/for/master)
+  * 4.3 [git push origin master](#git push origin master)
+## 简介
+    Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
+## git init
+    使用当前目录作为 Git 仓库
+## git clone
+ `git clone 拷贝一个 Git 仓库到本地，让自己能够查看该项目，或者进行修改。
+ 
+  git clone [url]  [url] 是你要拷贝的项目地址
 
-
-## Git push
+## git push
 
 	在使用git commit命令将修改从暂存区提交到本地版本库后，只剩下最后一步将本地版本库的分支推送到远程服务器上对应的分支了，如果不清楚版本库的构成，可以查看我的另一篇，git 仓库的基本结构。
 
@@ -8,15 +23,15 @@
 
     第一个master是本地分支名，第二个master是远程分支名。
 
-1. git push origin master
+###1. git push origin master
 
 	如果远程分支被省略，如上则表示将本地分支推送到与之存在追踪关系的远程分支（通常两者同名），如果该远程分支不存在，则会被新建
         
-2. git push origin ：refs/for/master 
+###2. git push origin ：refs/for/master 
 
 	如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支，等同于 git push origin --delete master
 
-3. git push origin
+###3. git push origin
 				
 	如果当前分支与远程分支存在追踪关系，则本地分支和远程分支都可以省略，将当前分支推送到origin主机的对应分支 
 
@@ -40,6 +55,6 @@
 
 　　　　（4） git push origin --tags //git push 的时候不会推送分支，如果一定要推送标签的话那么可以使用这个命令
 
-　6. 关于 refs/for
+　   6. refs/for
 
-　　// refs/for 的意义在于我们提交代码到服务器之后是需要经过code review 之后才能进行merge的，而refs/heads 不需要
+　　  // refs/for 的意义在于我们提交代码到服务器之后是需要经过code review 之后才能进行merge的，而refs/heads 不需要
