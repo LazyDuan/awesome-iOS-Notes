@@ -1,6 +1,6 @@
 # 目录
 * 1 [简介](#简介)
-* 2 [git init](#git-init)
+* 2 [git init](#Git-init)
 * 3 [git clone](#git-clone)
 * 4 [git push](#git-push)
   * 4.1 [git push origin master](#41git-push-origin-master-master)
