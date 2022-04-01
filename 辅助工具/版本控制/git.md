@@ -3,8 +3,8 @@
 * 2 [git init](#git-init)
 * 3 [git clone](#git-clone)
 * 4 [git push](#git-push)
-  * 4.1 [git push origin master](#1.-git-push-origin-master)
-  * 4.2 [git push origin ：refs/for/master](#git-push-origin:refs/for/master)
+  * 4.1 [git push origin master](#1.git-push-origin-master)
+  * 4.2 [git push origin:refs/for/master](#git-push-origin:refs/for/master)
   * 4.3 [git push origin](#3.-git-push-origin)
   
 ## 简介
@@ -24,7 +24,7 @@
 
     第一个master是本地分支名，第二个master是远程分支名。
 
-###1. git push origin master
+###1.git push origin master
 
 	如果远程分支被省略，如上则表示将本地分支推送到与之存在追踪关系的远程分支（通常两者同名），如果该远程分支不存在，则会被新建
         
